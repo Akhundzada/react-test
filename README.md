@@ -3,13 +3,16 @@
 При сабмите отправляет данные на сервер, получает коэфициенты, что будут использоваться ниже.
 
 GET /rates?longitude=x&latitude=y
+```
 {
     "rate1": 12
     "rate2": 14
 }
+```
 Данные для таблицы:
 
 GET /people?page=x&size=y
+```
 {
   "meta": {
     "total": 1000,
@@ -27,6 +30,7 @@ GET /people?page=x&size=y
     }
   ]
 }
+```
 
 Отобразить колонки:
 Full Name: fitstName + middleName + lastName
